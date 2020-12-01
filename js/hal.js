@@ -247,4 +247,3 @@ var createPub = function(doc, parent){
   parent.appendChild(listElement);
   jQuery('lang-en').hide();
 }
-
