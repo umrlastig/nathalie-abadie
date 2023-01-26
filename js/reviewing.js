@@ -141,7 +141,7 @@ var reviewingVis = function(dataURL){
     d3.json(dataURL).then(
         function(data){
             _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 320, "Journals");
-            _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 280, "Conferences");
+            _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 320, "Conferences");
             _reviewing4x(data.books, CVIS.BOOK_LIST, LEGENDS.books, "#revb", 110, "Books");
         }
     ).catch(function(err){console.log(err);});
