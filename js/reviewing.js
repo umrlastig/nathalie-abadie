@@ -23,7 +23,7 @@
 const CVIS = {
     BOOK_LIST: ["Books"],
     JOUR_LIST: ["RIG", "SWJ", "JMGL", "JoWS", "ISI", "IJGIS", "IJGI", "Other GIS"],
-    CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "The Web Conf.", ],
+    CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "The Web Conf. Posters", "The Web Conf. Industry"],
     TIME_INTERVAL: ["2010", "2025"],
     SVG_W: 800,
     TITLE_Y: 26,

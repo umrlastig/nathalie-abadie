@@ -49,7 +49,7 @@
 	 {"name": "SUMAC", "role": "Program Committee member", "year": 2021, "type": "PCM", "description": "ACM Multimedia conference workshop on Structuring and Understanding of Multimedia heritAge Contents (SUMAC)", "url": "https://sumac-workshops.github.io/2021/"},
 	 {"name": "SUMAC", "role": "Program Committee member", "year": 2022, "type": "PCM", "description": "ACM Multimedia conference workshop on Structuring and Understanding of Multimedia heritAge Contents (SUMAC)", "url": "https://sumac-workshops.github.io/2022/"},
 	 {"name": "The Web Conf.", "role": "Reviewer", "year": 2022, "type": "CREW", "description": "The Web Conference - Posters and Demos track", "url": "https://www2022.thewebconf.org/cfp/posters-demos/"},
-	 {"name": "The Web Conf.", "role": "Reviewer", "year": 2023, "type": "CREW", "description": "The Web Conference - Poster and Demos track", "url": "https://www2023.thewebconf.org/calls/posters-demos/"},
-	 {"name": "The Web Conf.", "role": "Reviewer", "year": 2023, "type": "CREW", "description": "The Web Conference - Industry track", "url": "https://www2023.thewebconf.org/calls/industry/"},
+	 {"name": "The Web Conf. Posters", "role": "Reviewer", "year": 2023, "type": "CREW", "description": "The Web Conference - Poster and Demos track", "url": "https://www2023.thewebconf.org/calls/posters-demos/"},
+	 {"name": "The Web Conf. Industry", "role": "Reviewer", "year": 2023, "type": "CREW", "description": "The Web Conference - Industry track", "url": "https://www2023.thewebconf.org/calls/industry/"},
 	 {"name": "IEEE ICDM", "role": "Reviewer", "year": 2017, "type": "CREW", "description": "IEEE International Conference on Data Mining", "url": "http://icdm2017.bigke.org/"} ]
 }
