@@ -29,7 +29,7 @@ const CVIS = {
     TITLE_Y: 26,
     CAPTION_X: 40,
     TRACK_WIDTH: 300,
-    TRACK_HEIGHT: 25,
+    TRACK_HEIGHT: 18,
     TRACK_X: 110,
     CELL_SIZE: 12,
     CELL_STROKE: 2,
