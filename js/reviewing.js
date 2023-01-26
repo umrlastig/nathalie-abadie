@@ -23,7 +23,7 @@
 const CVIS = {
     BOOK_LIST: ["Books"],
     JOUR_LIST: ["RIG", "SWJ", "JMGL", "JoWS", "ISI", "IJGIS", "IJGI", "Other GIS"],
-    CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "The Web Conf. Posters", "The Web Conf. Industry"],
+    CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "Web Conf. P", "Web Conf. I"],
     TIME_INTERVAL: ["2010", "2025"],
     SVG_W: 800,
     TITLE_Y: 26,
@@ -141,7 +141,7 @@ var reviewingVis = function(dataURL){
     d3.json(dataURL).then(
         function(data){
             _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 320, "Journals");
-            _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 320, "Conferences");
+            _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 400, "Conferences");
             _reviewing4x(data.books, CVIS.BOOK_LIST, LEGENDS.books, "#revb", 110, "Books");
         }
     ).catch(function(err){console.log(err);});
