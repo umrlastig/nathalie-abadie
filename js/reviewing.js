@@ -24,7 +24,7 @@ const CVIS = {
     BOOK_LIST: ["Books"],
     JOUR_LIST: ["RIG", "SWJ", "JMGL", "JoWS", "ISI", "IJGIS", "IJGI", "Other GIS"],
     CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "The Web Conf.: Posters and Demos", "The Web Conf.: Industry",  ],
-    TIME_INTERVAL: ["2015", "2025"],
+    TIME_INTERVAL: ["2010", "2025"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
@@ -102,7 +102,7 @@ var _reviewing4x = function(data, venueList, jobList, parentEl, svg_h, heading){
          .attr("transform", "translate(0,60)");
     svgEl.append("g")
          .attr("transform", "translate("+CVIS.TRACK_X+",54)")
-         .call(d3.axisTop(timeScale).tickValues([timeParser("2010"), timeParser("2015"), timeParser("2020")]).tickSizeOuter(0));
+         .call(d3.axisTop(timeScale).tickValues([timeParser("2010"), timeParser("2015"), timeParser("2020"), timeParser("2025")]).tickSizeOuter(0));
 
     venueGs = d3.select("g#"+heading.toLowerCase())
                 .selectAll("g.venues")
