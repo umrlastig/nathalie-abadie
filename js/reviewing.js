@@ -22,9 +22,9 @@
 
 const CVIS = {
     BOOK_LIST: ["Books"],
-    JOUR_LIST: ["IJGIS", "CaGIS", "TiGIS", "JOSIS", "IJGI", "IJC", "Carto", "Other GIS", "SpatialCog", "IEEE", "ISPRS"],
-    CONF_LIST: ["ICC", "GIScience", "GeneICA", "SAGEO", "ISPRS", "ISSDQ"],
-    TIME_INTERVAL: ["2006", "2021"],
+    JOUR_LIST: ["RIG", "SWJ", "JMGL", "JoWS", "ISI", "IJGIS", "IJGI", "Other GIS"],
+    CONF_LIST: ["SIMBig", "SoWeDo", "QLOD", "CDOS", "EGC", "IC", "K-Cap", "KeGeoD", "GIA", "EXCES", "HUMANS", "SAGEO", "SUMAC", "The Web Conference: Posters and Demos", "The Web Conference: Industry",  ],
+    TIME_INTERVAL: ["2006", "2022"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
