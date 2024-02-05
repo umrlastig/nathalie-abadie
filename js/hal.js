@@ -35,7 +35,7 @@ var getPublications = function(halId, parent, params){
 
   // Open a new connection, using the GET request on the URL endpoint
   var url = halApi(halId)+params;
-  // console.log(url);
+   console.log(url);
   request.open('GET', url, true);
   request.onload = function () {
     var docs = JSON.parse(this.response).response.docs;
