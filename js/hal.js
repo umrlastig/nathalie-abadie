@@ -62,7 +62,7 @@ const publication_options = {
   pubACTI:"&fq=popularLevel_s:0&fq=docType_s:\"COMM\"&fq=invitedCommunication_s:0&fq=proceedings_s:1&fq=audience_s:2",
   pubACTN:"&fq=popularLevel_s:0&fq=docType_s:\"COMM\"&fq=invitedCommunication_s:0&fq=proceedings_s:1&fq=audience_s:(1 OR 3)",
   pubOS:  "&fq=popularLevel_s:0&fq=docType_s:\"COUV\"",
-  pubDO:  "&fq=popularLevel_s:0&fq=docType_s:(\"DOUV\" OR \"PROCEEDINGS\")",
+  pubDO:  "&fq=docType_s:(\"DOUV\" OR \"PROCEEDINGS\")",
   pubAP:  "&fq=popularLevel_s:0&fq=docType_s:(\"REPORT\" OR \"UNDEFINED\")",
   pubTH:  "&fq=popularLevel_s:0&fq=docType_s:(\"THESE\" OR \"HDR\")",
   pubAFF: "&fq=popularLevel_s:0&fq=docType_s:\"POSTER\""
